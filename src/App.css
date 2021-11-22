@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  width: 66%;
+  margin:auto;
+  
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item{
+  height:350px;
+}
+.checked {
+  color: orange;
+}
+@media(max-width: 768px) {
+.App{
+  width: 100%;
+}
+.carousel-item{
+  height:auto !important;
+  width: 100%;
+}
+}
+  
+
